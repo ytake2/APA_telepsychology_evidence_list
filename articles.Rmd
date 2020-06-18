@@ -1,0 +1,50 @@
+---
+title: "論文情報抽出リスト"
+date: "2020-6-19"
+output:
+  html_document:
+    theme: lumen
+---
+
+
+
+```{r,warning=FALSE,message=FALSE,error=FALSE,echo=F}
+library(tidyverse)
+library(readxl)
+library(DT)
+
+
+APAlist <-read_excel("data.xlsx")
+colnames(APAlist)[1]<-"疾患/問題群"
+colnames(APAlist)[18]<-"情報抽出者"
+
+APAlist$`疾患/問題群`<-as.character(APAlist$`疾患/問題群`)
+APAlist$`疾患/問題群`<-as.factor(APAlist$`疾患/問題群`)
+APAlist$`研究デザイン`<-as.factor(APAlist$`研究デザイン`)
+APAlist$`情報抽出者`<-as.factor(APAlist$`情報抽出者`)
+
+
+create_dt <- function(x){
+  DT::datatable(x,
+                extensions = c('Buttons','ColReorder','Select', 'SearchPanes'),
+                selection = 'none',
+                options = list(dom = 'PBfrtip',
+                               buttons = list(c('copy', 'csv', 'excel', 'pdf', 'print')),
+                               pageLength = 90, 
+                               language = list(search = 'Filter:'),
+                autoWidth = TRUE,
+                scrollX = TRUE,
+                columnDefs = list(
+                  list(width = '150px', targets = c(1,2,5,18)),
+                  list(width = '200px', targets = c(3:4,6:10,16:17)),
+                  list(width = '400px', targets = c(11:14)),
+                  list(width = '600px', targets = c(15)),
+                  list(searchPanes = list(show = FALSE), targets = c(2:8,10:17))
+                  ),
+                initComplete = JS("function(settings, json) {", 
+                          "$(this.api().table().header()).css({'background-color': '#66CCCC', 'color': '#fff'});",
+    "}")))
+}
+create_dt(APAlist)%>%formatStyle(columns = colnames(.$x$data), `font-size` = '11px')
+
+```

@@ -1,0 +1,26 @@
+---
+title: "ページ紹介"
+output:
+  html_document:
+    theme: lumen
+---
+  
+  
+  
+      
+- 本ページでは,遠隔心理支援サービスの有効性等に関する論文の概要を臨床心理士等の有志でまとめた一覧を提供しています。
+
+- このリストに含まれている論文は,アメリカ心理学会の臨床心理学部会が作成した, 「臨床心理士のためのCOVID-19関連情報: 遠隔心理学の査読付き論文リスト[(COVID-19 RESOURCES FOR CLINICAL PSYCHOLOGISTS: PEER-REVIEWED PAPERS ON TELEPSYCHOLOGY)](https://www.div12.org/telepsychology-resources/)」に含まれているものです。
+
+- このリストには特定の介入方法を推奨する意図はありません。
+- このリストはあくまで研究概要のみを提供するものです。研究デザインがRCTであったとしても多様な要因によって研究知見にはバイアスが発生しえます。研究知見を臨床活用する際には論文本文をご参照ください。
+
+- 情報共有の速度を優先していることから抽出情報に不備がある可能性がありますので, お気づきの箇所がありましたらご指摘ください。
+
+- より包括的,系統的な遠隔心理支援のレビューを現在実施中です[^1]。
+
+[^1]:[Takebayashi et al. (2020) Effectiveness and characteristics of telepsychological interventions on mental health outcome: a systematic review of systematic reviews.](https://osf.io/3eztp/)
+
+
+
+

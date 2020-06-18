@@ -1,0 +1,26 @@
+name: "Telepsychology Evidence List from APA"
+navbar: 
+  title: "遠隔心理学エビデンスリスト"
+  left:
+    - text: "HOME"
+      href: index.html
+    - text: "Article List"
+      href: articles.html
+    - text: "Members"
+      href: members.html
+    - text: "Infomation"
+      href: info.html
+      
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    toc: true
+    toc_float:
+      collapse: false
+    df_print: "kable"
+    include:
+#      after_body: footer.html
+#    css: site_style.css
+    
+output_dir: "docs"

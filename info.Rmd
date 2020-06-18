@@ -1,0 +1,26 @@
+---
+title: "リスト内の尺度略称の正式名称"
+output:
+  html_document:
+    theme: lumen
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+```{r, echo=F}
+library(readxl)
+library(DT)
+data <- read_excel("data.xlsx", sheet = "尺度・略語まとめ（掲載用）")
+
+datatable(data[,1:2],
+          options=list(pageLength = 50,
+                       autoWidth = TRUE,
+                       columnDefs = list(
+                  list(width = '200px', targets = c(1:2)))))
+```
+
