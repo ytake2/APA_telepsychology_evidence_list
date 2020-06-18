@@ -1,8 +1,5 @@
 ---
 title: "ページ紹介"
-output:
-  html_document:
-    theme: lumen
 ---
   
   

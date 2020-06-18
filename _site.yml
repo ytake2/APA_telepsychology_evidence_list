@@ -8,8 +8,6 @@ navbar:
       href: articles.html
     - text: "Members"
       href: members.html
-    - text: "Infomation"
-      href: info.html
       
 output:
   html_document:
@@ -17,7 +15,7 @@ output:
     highlight: textmate
     toc: true
     toc_float:
-      collapse: false
+      collapse: true
     df_print: "kable"
     include:
 #      after_body: footer.html

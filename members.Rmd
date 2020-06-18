@@ -1,8 +1,8 @@
 ---
 title: "プロジェクト協力者"
 output:
-  html_document:
-    theme: lumen
+  prettydoc::html_pretty:
+    theme: leonids
 ---
 
 ```{r setup, include=FALSE}
@@ -10,12 +10,30 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+## プロジェクトリーダー
+
+### 青木俊太郎
+#### 福島県立医科大学
+
+> オンラインでもオフラインでも人と人とが繋がり続けられる世界であることを願っています。
+
+
+
+## プロジェクトサブリーダー
+
+### 佐藤秀樹
+#### 福島県立医科大学
+
+> COVID-19の影響でこれまでの生活スタイルをとることが難しい状況で，このプロジェクトは心理の専門家に求められている活動だと思い参加しました。このレビューも遠隔で行われましたが，目標が同じであれば対面と同じように取り組めることを実感できました。
+
+### その他のメンバー
+
 ```{r, echo=F}
 library(readxl)
 library(DT)
 data <- read_excel("data.xlsx", sheet = "お名前、ご所属、Twitter")
 
-datatable(data,
+datatable(data[c(-1,-10),],
           options=list(pageLength = 25,
                        autoWidth = TRUE,
                        columnDefs = list(
