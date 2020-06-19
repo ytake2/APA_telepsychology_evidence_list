@@ -4,8 +4,6 @@ date: "2020-6-19"
 output:
   prettydoc::html_pretty:
     theme: leonids
-    toc: true
-    toc_float: true
 ---
 
 ## 情報リスト
