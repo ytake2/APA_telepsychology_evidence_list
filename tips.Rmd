@@ -1,5 +1,5 @@
 ---
-title: "Tips"
+title: "Tips成人版"
 output:
   prettydoc::html_pretty:
     theme: leonids
@@ -10,16 +10,25 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+-----
+
 ## ラポール形成のTips
 
-Colorado Boulder大学のKrollさんらが中心となってまとめて下さった、遠隔医療におけるラポール形成のTipsリストの日本語訳を作成しました。Tips作成のための参考文献もリストされています。
+University of Colorado BoulderのKrollさん,The Ohio State UniversityのSeager van Dykさん らが中心となってまとめて下さった、遠隔医療におけるラポール形成のTipsリストの日本語訳を作成しました。Tips作成のための参考文献もリストされています。成人向け版と児童青年向け版があります。
 
-PDFはこちら：[COVID-19 Tips:遠隔医療で成⼈クライエントとのラポール形成](COVID19Tips_Rapport.pdf)
+成人向け版PDFはこちら：[COVID-19 Tips:遠隔医療で成⼈クライエントとのラポール形成](COVID19Tips_Rapport.pdf)
 
+児童青年向け版PDFはこちら：[COVID-19 Tips:遠隔医療で成⼈クライエントとのラポール形成](COVID19Tips_Rapport_CA.pdf)
+
+
+
+
+### 成人版
 
 -----
 
-### COVID-19 Tips: 遠隔医療で成人クライエントとのラポール形成
+#### COVID-19 Tips: 
+#### 遠隔医療で成人クライエントとのラポール形成
 
 Juliet Kroll, Ruben Martinez, and Ilana Seager van Dyk  
 UCLA Pediatric Psychology Consultation Liaison Service  
@@ -166,8 +175,5 @@ Simpson, S., Bell, L., Knox, J., & Mitchell, D. (2005). Therapy via videoconfere
 
 竹林由武 (福島県立医科大学健康リスクコミュニケーション学講座)
 
-
-
-
-
+-----
 

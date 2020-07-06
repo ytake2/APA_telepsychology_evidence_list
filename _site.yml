@@ -6,8 +6,11 @@ navbar:
       href: index.html
     - text: "Article List"
       href: articles.html
-    - text: "Tips for practice"
+    - text: "Tips for practice 1"
       href: tips.html
+    - text: "Tips for practice 2"
+      href: tips_CA.html
+
     - text: "Members"
       href: members.html
       
