@@ -16,6 +16,9 @@ title: "ページ紹介"
 
 - より包括的,系統的な遠隔心理支援のレビューを現在実施中です[^1]。
 
+- 遠隔心理学の実践に役立つTipsに関する情報も掲載しました。
+
+
 [^1]:[Takebayashi et al. (2020) Effectiveness and characteristics of telepsychological interventions on mental health outcome: a systematic review of systematic reviews.](https://osf.io/3eztp/)
 
 
