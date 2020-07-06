@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Colorado Boulder大学のKrollさんらが中心となってまとめて下さった、遠隔医療におけるラポール形成のTipsリストの日本語訳を作成しました。Tips作成のための参考文献もリストされています。
 
-PDFはこちら：[COVID-19 Tips:遠隔医療で成⼈クライエントとのラポール形成]("COVID19Tips_Rapport.pdf")
+PDFはこちら：[COVID-19 Tips:遠隔医療で成⼈クライエントとのラポール形成]("https://github.com/ytake2/APA_telepsychology_evidence_list/blob/master/COVID19Tips_Rapport.pdf")
 
 
 -----
